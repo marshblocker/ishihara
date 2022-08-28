@@ -1,0 +1,13 @@
+<div id="config-div">
+  <h2>Ishihara Plate Settings</h2>
+  <input
+    type="file"
+    name="img"
+    id="img"
+    accept=".jpeg, .jpg, .png"
+    (change)="onUploadImage($event)"
+  />
+  <button [disabled]="!imageUploaded" (click)="runProgram()" id="update-config">
+    Generate Ishihara Plate
+  </button>
+</div>

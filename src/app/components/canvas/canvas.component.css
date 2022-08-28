@@ -1,0 +1,9 @@
+#myCanvas {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid gray;
+}
